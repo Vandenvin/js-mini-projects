@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://goitacademy.github.io/js-mini-projects",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html --open",
     "build": "parcel build src/*.html --public-url /js-mini-projects/"
   },
   "repository": {
