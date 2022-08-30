@@ -1,0 +1,1 @@
+{"mappings":"ACAA","sources":["partials/02-video.c11b6b09.css","src/sass/02-video.scss"],"sourcesContent":[".iframe {\n  margin-left: auto;\n  margin-right: auto;\n  display: flex;\n}\n\n/*# sourceMappingURL=02-video.c11b6b09.css.map */\n",".iframe {\n  display: flex;\n\n  margin-left: auto;\n  margin-right: auto;\n}\n"],"names":[],"version":3,"file":"02-video.c11b6b09.css.map"}
