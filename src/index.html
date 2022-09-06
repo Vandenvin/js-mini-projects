@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Page title</title>
-  <link rel="stylesheet" href="/src/sass/_common.scss" />
+  <link rel="stylesheet" href="/src/sass/common.scss" />
   <link rel="stylesheet" href="/src/sass/index.scss" />
 </head>
 
@@ -14,12 +14,32 @@
     <h1>My projects:</h1>
 
     <table>
+      <!-- Heading -->
       <tr>
         <th class="table__name">Project Name</th>
         <th class="table__description">Project Description</th>
         <th class="table__sources">Additional Resources</th>
       </tr>
-
+      <!-- Timer -->
+      <tr>
+        <td>
+          <a href="/src/partials/08-timer.html" class="link">Timer</a>
+        </td>
+        <td>
+          <span class="description">Таймер обратного отсчета</span>
+        </td>
+        <td>
+          <ul class="list">
+            <li class="list__item"><a href="https://flatpickr.js.org/" rel="noopener noreferrer"
+                class="libraries link">Flatpickr</a>
+            </li>
+            <li class="list__item"><a href="https://github.com/notiflix/Notiflix#readme" rel="noopener noreferrer"
+                class="libraries link">Notiflix</a>
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <!-- Image gallery -->
       <tr>
         <td>
           <a href="/src/partials/01-gallery.html" class="link">Image gallery</a>
@@ -33,7 +53,7 @@
             class="libraries link">SimpleLightbox</a>
         </td>
       </tr>
-
+      <!-- Video playback -->
       <tr>
         <td>
           <a href="/src/partials/02-video.html" class="link">Video playback</a>
@@ -53,10 +73,10 @@
           </ul>
         </td>
       </tr>
-
+      <!-- Feedback Form -->
       <tr>
         <td>
-          <a href="/src/partials/03-feedback.html" class="link">Feedback form</a>
+          <a href="/src/partials/03-feedback.html" class="link">Feedback Form</a>
         </td>
         <td>
           <span class="description">Cкрипт, который сохраняет значение полей в локальном хранилище, когда
@@ -70,7 +90,39 @@
           </ul>
         </td>
       </tr>
-
+      <!-- Color Switcher -->
+      <tr>
+        <td>
+          <a href="/src/partials/06-color-switcher.html" class="link">Color Switcher</a>
+        </td>
+        <td>
+          <span class="description">Скрипт, который изменяет фон страницы рандомным цветом (с использованием
+            setInterval)</span>
+        </td>
+        <td>
+          <ul class="list">
+            <li class="list__item"><a href="" rel="noopener noreferrer" class="libraries link">-</a>
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <!-- Counter -->
+      <tr>
+        <td>
+          <a href="/src/partials/04-counter.html" class="link">Counter</a>
+        </td>
+        <td>
+          <span class="description">Счетчик, который изменяет значение элемента на "1" при нажатии на
+            соответсвующие кнопки</span>
+        </td>
+        <td>
+          <ul class="list">
+            <li class="list__item"><a href="" rel="noopener noreferrer" class="libraries link">-</a>
+            </li>
+          </ul>
+        </td>
+      </tr>
+      <!-- Boxes -->
       <tr>
         <td>
           <a href="/src/partials/07-boxes.html" class="link">Boxes</a>
@@ -85,29 +137,13 @@
           </ul>
         </td>
       </tr>
-
-      <tr>
-        <td>
-          <a href="/src/partials/04-counter.html" class="link">Conter</a>
-        </td>
-        <td>
-          <span class="description">Счетчик, который изменяет значение элемента на "1" при нажатии на
-            соответсвующие кнопки</span>
-        </td>
-        <td>
-          <ul class="list">
-            <li class="list__item"><a href="" rel="noopener noreferrer" class="libraries link">-</a>
-            </li>
-          </ul>
-        </td>
-      </tr>
-
+      <!-- Font-size control -->
       <tr>
         <td>
           <a href="/src/partials/05-fontsize.html" class="link">Font-size control</a>
         </td>
         <td>
-          <span class="description">Скрипт, который изменяет размер в зависимости от значение ползунка</span>
+          <span class="description">Скрипт, который изменяет размер текста в зависимости от значение ползунка</span>
         </td>
         <td>
           <ul class="list">
@@ -117,20 +153,7 @@
         </td>
       </tr>
 
-      <tr>
-        <td>
-          <a href="/src/partials/06-color-change.html" class="link">Change color</a>
-        </td>
-        <td>
-          <span class="description">Скрипт, который изменяет фон страницы рандомным цветом</span>
-        </td>
-        <td>
-          <ul class="list">
-            <li class="list__item"><a href="" rel="noopener noreferrer" class="libraries link">-</a>
-            </li>
-          </ul>
-        </td>
-      </tr>
+
     </table>
 
   </div>
